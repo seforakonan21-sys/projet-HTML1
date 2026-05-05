@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Acceuil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#work">Travail</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main> 
+        <section class="hero" >
+            <div class="image">
+                <img src="./image/pngtree-a-meadow-of-pink-and-purple-flowers-image_17005010.jpg" alt="Ma photo">
+            </div>  
+
+            <div>
+                <audio controls>
+                    <source src="" type="">
+                    Votre navigateur ne supporte pas l'audio.
+                </audio>
+            </div> 
+        </section>
+
+        <section class="about" id="about">
+            <div>
+                <h2>À propos</h2>
+                <p>Je suis étudiant en développement web passionné par la création de sites.</p>
+
+                <h3>Mes compétences</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+
+            <div >
+                <video controls >
+                    <source src="./video/mov_bbb.mp4" type="video/mp4">
+                    Votre navigateur ne supporte pas la vidéo.
+                </video>
+            </div>
+        </section>
+
+        <section class="work" id="work">
+            <h2>Mes travaux</h2>
+
+            <article>
+                <h3>Projet 1</h3>
+                <p>Création d’un site web.</p>
+            </article>
+
+            <article>
+                <h3>Projet 2</h3>
+                <p>apprendre la base de donnée.</p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Resume</h2>
+            <div class="resum">
+                <p>
+                    Ce site est mon portfolio personnel. <br>Il présente mon profil, mes compétences 
+                    <br>en développement web, 
+                    mes projets réalisés ainsi que mon <br>parcours académique à travers un CV. 
+                </p>
+            </div>
+        </section>
+
+
+        <section class="cv" id="cv">
+            <h2>Mon CV</h2>
+
+            <table> 
+                <tr>
+                    <th>Année</th>
+                    <th>Expérience   et   Formation</th>
+                </tr>
+
+                <tr>
+                    <td>2023</td>
+                    <td>Baccalauréat</td>
+                </tr>
+
+                <tr>
+                    <td>2025</td>
+                    <td>BTS</td>
+                </tr>
+
+                <tr>
+                    <td>2026</td>
+                    <td>Formation en Développement Web</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2>Contact</h2>
+
+            <form>
+                <label>Nom :</label><br>
+                <input type="text" name="nom" required><br><br>
+
+                <label>Email :</label><br>
+                <input type="email" name="email" required><br><br>
+
+                <label>Sujet :</label><br>
+                <input type="text" name="sujet"><br><br>
+
+                <label>Message :</label><br>
+                <textarea name="message" rows="5" required></textarea><br><br>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Mon Portfolio - Tous droits réservés</p>
+        <p>Contact : monemail@gmail.com</p>
+    </footer>       
+</body>
+</html>
+
