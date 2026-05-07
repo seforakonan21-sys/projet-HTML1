@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -24,7 +25,7 @@
                 <img src="./image/pngtree-a-meadow-of-pink-and-purple-flowers-image_17005010.jpg" alt="Ma photo">
             </div>  
 
-            <div>
+            <div class="audios">
                 <audio controls>
                     <source src="" type="">
                     Votre navigateur ne supporte pas l'audio.
@@ -33,7 +34,7 @@
         </section>
 
         <section class="about" id="about">
-            <div>
+            <div class="abt">
                 <h2>À propos</h2>
                 <p>Je suis étudiant en développement web passionné par la création de sites.</p>
 
@@ -45,7 +46,7 @@
                 </ul>
             </div>
 
-            <div >
+            <div>
                 <video controls >
                     <source src="./video/mov_bbb.mp4" type="video/mp4">
                     Votre navigateur ne supporte pas la vidéo.
@@ -54,26 +55,39 @@
         </section>
 
         <section class="work" id="work">
-            <h2>Mes travaux</h2>
+            <h2 class="trav">Mes travaux</h2>
 
-            <article>
-                <h3>Projet 1</h3>
-                <p>Création d’un site web.</p>
-            </article>
+            <div class="projets">
+                <article>
+                    <div class="box">
+                        <h3>Projet 1</h3>
+                        <p>Création d’un site web.</p>
+                    </div>
+                </article>
 
-            <article>
-                <h3>Projet 2</h3>
-                <p>apprendre la base de donnée.</p>
-            </article>
+                <article>
+                    <div class="box">
+                        <h3>Projet 2</h3>
+                        <p>apprendre la base de donnée.</p>
+                    </div>
+                </article>
+
+                 <article>
+                    <div class="box">
+                        <h3>Projet 3</h3>
+                        <p>conception d'affiche.</p>
+                    </div>  
+                </article>
+            </div>
         </section>
 
-        <section>
+        <section class="resumes">
             <h2>Resume</h2>
             <div class="resum">
                 <p>
-                    Ce site est mon portfolio personnel. <br>Il présente mon profil, mes compétences 
-                    <br>en développement web, 
-                    mes projets réalisés ainsi que mon <br>parcours académique à travers un CV. 
+                    Ce site est mon portfolio personnel.Il présente mon profil, mes compétences 
+                    en développement web, 
+                    mes projets réalisés ainsi que mon parcours académique à travers un CV. <br> 
                 </p>
             </div>
         </section>
@@ -127,8 +141,8 @@
     </main>
 
     <footer>
-        <p>© 2026 Mon Portfolio - Tous droits réservés</p>
-        <p>Contact : monemail@gmail.com</p>
+        <p>© 2026 Mon Portfolio - Tous droits réservés Contact : monemail@gmail.com</p>
+        
     </footer>       
 </body>
 </html>

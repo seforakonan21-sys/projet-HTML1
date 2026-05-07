@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    min-height: 100vh;
+}
+
+header{
+    background-color: black;
+    padding: 5px 0;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+    padding-left: 5px;
+    transition: 0.2s;
+
+}
+
+ nav ul li a{
+   text-decoration: none;
+   font-weight: 600;
+   color: aliceblue;
+   font-size: 600;
+}
+
+nav ul li a:hover{
+    background-color: blue;
+}
+
+main{
+    margin-top: 15px;
+}
+
+.hero .image{
+    width: 100%; 
+   
+}
+
+.hero .image img{
+    width: 100%;
+    height: 250px;    
+
+}
+
+audio{
+    width: 100%;
+    margin-top: 15px;
+    
+}
+
+.about{
+   display: flex;
+   background-color: rgb(207, 167, 115);
+   margin-top: 15px;
+   justify-content: space-between;
+
+} 
+.abt ul li {
+    text-align: center;
+    list-style: none;
+    color: white;
+}
+
+.abt p{
+    padding: 15px;
+    color: white;
+    font-weight: 600;
+
+}
+.about h2, .about h3{
+    text-align: center;
+    color: red;
+}
+
+video{
+    padding: 35px;
+}
+
+.trav{
+    text-align: center;
+    color: red;
+}
+
+.projets{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box {
+    background-color:  rgb(207, 167, 115);
+    padding: 30px;  
+}
+
+.box h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box P{
+    color: white;
+    font-weight: 500;
+}
+
+.resumes{
+    box-shadow: 2px 1px 2px 2px;
+    padding-bottom: 10px;
+}
+
+.resumes h2{
+    text-align: center;
+    color: red;
+}
+
+.resum P{
+    text-align: center;
+}
+
+.cv h2{
+    text-align: center;
+    color: red;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    
+   }
+
+tr{
+    background-color: #f2f2f2;
+     
+}
+
+ th{
+    background-color: green;
+    color: white;
+ }
+
+ td, th{
+    border: 1px solid #fff;
+    padding: 10px;
+    text-align: center;
+
+ }
+
+ .contact h2{
+    color: red;
+   
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;  
+    background-color: rgb(207, 169, 120);
+}
+
+ label{
+    margin-bottom: 2px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-align: center;
+
+ }
+input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #030303;
+    border-radius: 8px;
+    outline: none;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+button {
+    background: rgb(175, 103, 8);
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    margin-top: 15px;
+
+}
+
+ 
